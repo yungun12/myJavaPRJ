@@ -4,6 +4,6 @@ public class Hello5 {
 
         System.out.println("다섯번째 Hello");
 
-        System.out.println("야구가 보고싶어요");
+        System.out.println("I love you");
     }
 }
