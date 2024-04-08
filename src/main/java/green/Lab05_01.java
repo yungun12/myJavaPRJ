@@ -2,26 +2,18 @@ package green;
 import java.util.Scanner;
 public class Lab05_01 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        int year;
+        Scanner s  = new Scanner(System.in);
+        int age;
 
-        System.out.println("출생 연도를 입력하세요");
-        year = s.nextInt();
+        System.out.print("나이 입력 ==> ");
+        age = s.nextInt();
 
-        switch(year%12) {
-            case 0: System.out.println("원숭이띠");   break;
-            case 1: System.out.println("닭띠");   break;
-            case 2: System.out.println("개띠");   break;
-            case 3: System.out.println("돼지띠");   break;
-            case 4: System.out.println("쥐띠");   break;
-            case 5: System.out.println("소띠");   break;
-            case 6: System.out.println("호랑이띠");   break;
-            case 7: System.out.println("토끼띠");   break;
-            case 8: System.out.println("용띠");   break;
-            case 9: System.out.println("뱀띠");   break;
-            case 10: System.out.println("말띠");   break;
-            case 11: System.out.println("양띠");   break;
+        if (age >= 18) {
+            System.out.println("즐거운 시간 보내세요^^");
+        } else {
+            System.out.println("집에 갈 시간이네요!");
         }
+        System.out.println("협조 감사합니다.");
 
         s.close();
     }
