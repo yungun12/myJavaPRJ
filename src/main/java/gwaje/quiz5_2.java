@@ -1,6 +1,6 @@
 package gwaje;
 import java.util.Scanner;
-public class quiz5_1 {
+public class quiz5_2 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int num;

@@ -9,7 +9,7 @@ public class CodeExam02 {
         num = s.nextInt();
 
         if(num%15 == 0) {
-            System.out.println("3과 5의 배수입니다.");
+            System.out.println("3과 5의 배수 둘다 만족합니다.");
         }
         else if (num%5 == 0) {
             System.out.println("5의 배수입니다.");
@@ -18,7 +18,7 @@ public class CodeExam02 {
             System.out.println("3의 배수입니다.");
         }
         else {
-            System.out.println("잘못된 선택입니다.");
+            System.out.println("해당 없습니다.");
         }
 
     s.close();
