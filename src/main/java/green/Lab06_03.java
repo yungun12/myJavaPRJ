@@ -14,7 +14,7 @@ public class Lab06_03 {
             if ((dice1 == dice2) && (dice2 == dice3))
                 break;
         }
-        System.out.printf("3개 주사위는 모두 %d입니다.\n", dice1);
+        System.out.printf("3개 주사위는 모두 %d 입니다.\n", dice1);
         System.out.printf("같은 숫자가 나올 때까지 %d번 던졌습니다.\n", count);
     }
 }
