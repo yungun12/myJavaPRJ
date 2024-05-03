@@ -1,6 +1,6 @@
 package Baekjoon;
 import java.util.Scanner;
-public class Memo01 {
+public class beakjoon10998 {
         public static void main(String[]args) {
             Scanner s = new Scanner(System.in);
             int a,b;
