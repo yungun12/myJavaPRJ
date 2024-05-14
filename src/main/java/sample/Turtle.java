@@ -1,4 +1,4 @@
-/**AUTHOR: NICHOLAS SEWARD
+package sample; /**AUTHOR: NICHOLAS SEWARD
  * EMAIL: nicholas.seward@gmail.com
  * LICENSE: MIT (USE THIS HOWEVER YOU SEE FIT.)
  * DATE: 6/21/2012
@@ -30,7 +30,7 @@ import java.lang.reflect.Method;
 import java.util.*;
 
 /**
- * Turtle is a selfcontained class that will allow students to make
+ * sample.Turtle is a selfcontained class that will allow students to make
  * beautiful turtle graphics with ease.
  *
  * @author Nicholas Seward
@@ -161,7 +161,7 @@ public class Turtle implements Runnable, ActionListener, MouseListener, MouseMot
         running=true;
 
 
-        window = new JFrame("Turtle");
+        window = new JFrame("sample.Turtle");
         icon = new ImageIcon();
         setupBuffering();
         draw = new JLabel(icon);
@@ -218,7 +218,7 @@ public class Turtle implements Runnable, ActionListener, MouseListener, MouseMot
      * applets in the future.  For now, it doesn't work because the key and
      * mouse bindings require reflection and applets think that allowing
      * reflection would open a security hole.  Theoretically in the init method
-     * of the applet you need to place <code>Turtle.startApplet(this);</code>.
+     * of the applet you need to place <code>sample.Turtle.startApplet(this);</code>.
      * <b>This is not currently working.</b>
      *
      * @param applet
@@ -481,7 +481,7 @@ public class Turtle implements Runnable, ActionListener, MouseListener, MouseMot
     /**
      * This is a internal constuctor that makes a singleton that does the
      * listening but is not added to the stack of turtles to be rendered.
-     * You don't need to use this outside of the Turtle.java file.
+     * You don't need to use this outside of the sample.Turtle.java file.
      *
      * @param i Pass this any integer.  It doesn't do anything.
      */
@@ -1661,7 +1661,7 @@ public class Turtle implements Runnable, ActionListener, MouseListener, MouseMot
                     for(Class paramType : m.getParameterTypes())
                     {
                         //System.out.println(paramType.getName());
-                        if (!paramType.getName().equals("double") && !paramType.getName().equals("java.lang.Double") && !paramType.getName().equals("Turtle"))
+                        if (!paramType.getName().equals("double") && !paramType.getName().equals("java.lang.Double") && !paramType.getName().equals("sample.Turtle"))
                         {
                             works=false;
                             break;
@@ -1720,7 +1720,7 @@ public class Turtle implements Runnable, ActionListener, MouseListener, MouseMot
                     for(Class paramType : m.getParameterTypes())
                     {
                         //System.out.println(paramType.getName());
-                        if (!paramType.getName().equals("java.lang.String") && !paramType.getName().equals("Turtle"))
+                        if (!paramType.getName().equals("java.lang.String") && !paramType.getName().equals("sample.Turtle"))
                         {
                             works=false;
                             break;
@@ -2206,7 +2206,7 @@ public class Turtle implements Runnable, ActionListener, MouseListener, MouseMot
      */
     public static void main(String[] a)
     {
-        //Turtle bob = new Turtle();
+        //sample.Turtle bob = new sample.Turtle();
         /*for(int i=0;i<360;i++)
         {
             bob.forward(i*1.25);
