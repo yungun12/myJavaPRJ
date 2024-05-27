@@ -6,8 +6,8 @@ package chapter8;
         }
     }
 
-    class HouseRabbit extends Rabbit8 {
-        HouseRabbit () {
+    class HouseRabbit1 extends Rabbit8 {
+        HouseRabbit1 () {
             System.out.println("2. 서브 클래스(집토끼)의 생성자가 호줄됩니다.");
         }
     }

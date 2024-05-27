@@ -1,5 +1,6 @@
 package chapter7;
-class Rabbit01 {
+
+class Rabbit1 {
     String shape;
     int xPos;
     int yPos;
@@ -9,11 +10,12 @@ class Rabbit01 {
         yPos = y;
     }
 }
-public class Code07_07 {
-    public static void main(String[] args) {
-        Rabbit rabbit1 = new Rabbit();
-        Rabbit rabbit2 = new Rabbit();
-        Rabbit rabbit3 = new Rabbit();
 
-    }
+    public class Code07_07 {
+        public static void main(String[] args) {
+            Rabbit1 rabbit1 = new Rabbit1();
+            Rabbit1 rabbit2 = new Rabbit1();
+            Rabbit1 rabbit3 = new Rabbit1();
+
+        }
 }

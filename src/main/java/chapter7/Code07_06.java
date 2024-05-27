@@ -1,5 +1,6 @@
 package chapter7;
-    class Rabbit0 {
+
+    class Rabbit {
         String shape;
         int xPos;
         int yPos;
@@ -12,7 +13,6 @@ package chapter7;
 
 public class Code07_06 {
         public static void main(String[] args) {
-
 
         }
 }
