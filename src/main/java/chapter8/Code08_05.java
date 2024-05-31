@@ -1,5 +1,5 @@
 package chapter8;
-class Rabbit9 {
+class Rabbit4 {
     private String shape;
     int xPos;
     int yPos;
@@ -10,23 +10,23 @@ class Rabbit9 {
     }
 }
 
-class HouseRabbit extends Rabbit9 {
+class HouseRabbit4 extends Rabbit4 {
     String owner;
-    void eatFood() {
+    void eatFeed() {
         System.out.println("집토끼가 사료를 먹습니다.");
     }
 }
 
 public class Code08_05 {
     public static void main(String[] args) {
-        HouseRabbit hRabbit = new HouseRabbit();
+        HouseRabbit4 hRabbit = new HouseRabbit4();
+        hRabbit.eatFeed();
 
         hRabbit.owner = "난생이";
-        hRabbit.eatFood();
-//      hRabbit.shape = "삼각형";
-//      hRabbit.move(100, 100);
+        hRabbit.eatFeed();
+        //      hRabbit.shape = "삼각형";
+        //      hRabbit.move(100, 100);
         hRabbit.xPos = 100;
         hRabbit.yPos = 100;
     }
-
 }

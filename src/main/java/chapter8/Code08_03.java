@@ -1,41 +1,42 @@
 package chapter8;
-    class Rabbit7 {
-        String shape;
-        int xpos;
-        int ypos;
+class Rabbit2 {
+    String shape;
+    int xPos;
+    int yPos;
 
     void move(int x, int y) {
-        this.xpos = x;
-        this.ypos = y;
+        this.xPos = x;
+        this.yPos = y;
     }
 }
 
-    class HouseRabbit7 extends Rabbit6 {
+class HouseRabbit2 extends Rabbit2 {
     String owner;
-    void eatFood() {
+    void eatFeed() {
         System.out.println("집토끼가 사료를 먹습니다.");
     }
 }
 
-    class MountainRabbit7 extends Rabbit6 {
+class MountainRabbit2 extends Rabbit2 {
     String mountain;
     void eatWildglass() {
         System.out.println("산토끼가 풀을 먹습니다.");
     }
 }
+
 public class Code08_03 {
-        public static void main(String[] args) {
-            HouseRabbit7 hRabbit7 = new HouseRabbit7();
-            MountainRabbit7 mRabbit7 = new MountainRabbit7();
+    public static void main(String[] args) {
+        HouseRabbit2 hRabbit = new HouseRabbit2();
+        MountainRabbit2 mRabbit = new MountainRabbit2();
 
-            hRabbit7.shape = "삼각형";
-            hRabbit7.owner = "난생이";
-            hRabbit7.move(100, 100);
-            hRabbit7.eatFood();
+        hRabbit.shape = "삼각형";
+        hRabbit.owner = "난생이";
+        hRabbit.move(100, 100);
+        hRabbit.eatFeed();
 
-            mRabbit7.shape = "네모";
-            mRabbit7.mountain = "설악산";
-            mRabbit7.move(200, 200);
-            mRabbit7.eatWildglass();
-        }
+        mRabbit.shape = "네모";
+        mRabbit.mountain = "설악산";
+        mRabbit.move(200, 200);
+        mRabbit.eatWildglass();
+    }
 }
