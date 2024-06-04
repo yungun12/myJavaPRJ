@@ -7,7 +7,7 @@ interface Cannon {
     void fire();
 }
 
-class Tank implements Car, Cannon {
+class Tank implements Cannon, Car {
     public void move() {
         System.out.println("탱크가 앞으로 이동합니다.");
     }
