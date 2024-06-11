@@ -1,6 +1,7 @@
+package chapter2;
+
 public class Code02_05 {
     public static void main(String[] args) {
-
         int a = 100;
         int b = 200;
 
