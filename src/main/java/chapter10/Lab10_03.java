@@ -22,7 +22,7 @@ public class Lab10_03 {
         if (checkPassword(password))
             System.out.println("Good~ 비밀번호가 올바르게 생성되었어요.");
         else
-            System.out.println("오류! 비밀번호가 규칙에 맞지 않습니다.");
+            System.out.println("오류! 비밀번호가 규칙에 적합하지 않습니다.");
 
         s.close();
     }
