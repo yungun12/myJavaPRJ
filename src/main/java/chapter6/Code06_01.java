@@ -1,6 +1,6 @@
 package chapter6;
 import java.util.Scanner;
-public class Code06_0 {
+public class Code06_01 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
